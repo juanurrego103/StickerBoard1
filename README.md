@@ -22,20 +22,20 @@ Validación de entradas y control de rangos.
 
  Estructura del Proyecto
 
-StickerBoard1/
-│
-├── StickerBoard1.cs → Lógica principal del formulario
-├── StickerFactory.cs → Clase Factory que crea los distintos tipos de stickers
-├── Sticker.cs → Clase base abstracta para las figuras
-├── StickerRectangulo.cs → Clase derivada (Rectángulo)
-├── StickerCirculo.cs → Clase derivada (Círculo)
-├── StickerEstrella.cs → Clase derivada (Estrella)
-├── StickerNube.cs → Clase derivada (Nube)
-├── StickerBoard1.Designer.cs → Diseño visual del formulario
-├── Program.cs → Punto de entrada del proyecto
-└── README.txt → Documento explicativo del proyecto
+StickerBoard1
 
-🧩 Controles del Formulario
+StickerBoard1.cs → Lógica principal del formulario
+StickerFactory.cs → Clase Factory que crea los distintos tipos de stickers
+Sticker.cs → Clase base abstracta para las figuras
+StickerRectangulo.cs → Clase derivada (Rectángulo)
+StickerCirculo.cs → Clase derivada (Círculo)
+StickerEstrella.cs → Clase derivada (Estrella)
+StickerNube.cs → Clase derivada (Nube)
+StickerBoard1.Designer.cs → Diseño visual del formulario
+Program.cs → Punto de entrada del proyecto
+README.txt → Documento explicativo del proyecto
+
+Controles del Formulario
 
 cmbSticker: ComboBox para elegir el tipo de figura (Rectángulo, Círculo, Estrella, Nube).
 
